@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 4, Time elapsed: 7.644 s <<< FAILURE! - in TestSuite
+testcases.ProductSearchTest.search  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "core.Hook.extent" is null
+	at testcases.ProductSearchTest.search(ProductSearchTest.java:22)
+
+testcases.ProductSearchTest.search  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "core.Hook.extent" is null
+	at testcases.ProductSearchTest.search(ProductSearchTest.java:22)
+
+testcases.ProductSearchTest.search  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "core.Hook.extent" is null
+	at testcases.ProductSearchTest.search(ProductSearchTest.java:22)
+

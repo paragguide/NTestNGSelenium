@@ -1,0 +1,8 @@
+testcases\LoginTest.class
+utility\ScreenShot.class
+utility\WBConnect.class
+core\Hook.class
+externalxpath\AmazonXpath.class
+core\Page.class
+testcases\ForgetPwdTest.class
+testcases\ProductSearchTest.class
