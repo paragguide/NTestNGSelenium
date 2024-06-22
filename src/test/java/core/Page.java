@@ -35,9 +35,11 @@ public class Page
 	  if(!Boolean.parseBoolean(key))			 
 	    {
 		  throw new SkipException("Skip Test "+testname);
+		  
 	    }
 	  else
 	  {
+		  System.out.println("hello");
 		  // initialize report..
 		  extent = new ExtentReports();
 			spark = new ExtentSparkReporter( System.getProperty("user.dir")+"//src//test//java//reports//"+reportname+".html" );
